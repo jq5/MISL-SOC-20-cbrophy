@@ -2,5 +2,5 @@
 
 Enable developer mode on given android device. 
 Install Android Studio. 
-Download Virtual Device that mirrors your physical device.
+Update drivers for your phone from "C:/Users/user/AppData/Local/Android/extras/google"
 Build and run an "Empty Activity" project.
