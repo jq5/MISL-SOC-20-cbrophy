@@ -1,5 +1,31 @@
 # MISL-SOC-20-cbrophy
 
-Yet to setup Mediapipe correctly, tried on multiple O/S.
+My project that I am working on over the duration of MISL-SOC-2020 is "**Image Processing with Facial Recognition**".
 
-My goal for the project is to make a image processing app that takes live feed from your phone camera, looks for a face and then applies a filter to it ie. Dog face.
+# Description
+
+My language that I will be using is Python and I will be using a library named *OpenCV*.
+OpenCV is a real-time, open-source computer vision and machine-learning library.
+
+I want to use these tools to create a mobile phone application with facial recognition and put different filters on top.
+
+# Installation
+
+My Dad helped me through the installation progress.
+
+## Anaconda
+
+Download Anaconda so you can create environments with their own seperate packages and python versions. https://docs.anaconda.com/anaconda/install/
+Since I am using *Windows 10*, I followed the Windows installation guide.
+I installed **for ALL users** because I just prefer to have access, even if restricted, to any program on all the accounts on my computer. 
+I also checked the option of **Add Anaconda3 to my Path environment variable** seeing as there was problems with libraries not being found if we didn't. 
+To create, activate, deactivate and switch between environments in Anaconda, I followed this guide: https://docs.anaconda.com/anaconda/user-guide/tasks/switch-environment/
+
+## Running Programs
+
+I always ran my code by opening a *Command Prompt* and activating the desired environment, which for me was "py3" for Python v3.8.3. 
+Then, I navigated into the directory that contained my desired program and ran **python build.py** (replace build.py with whatever your program is called.) 
+
+## Problems
+
+Running code through a pre-existing install of Python's *IDLE* means that you will only have the packages installed to **that environment**, so any other packages installed in an Anaconda environment won't be used.
