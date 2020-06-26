@@ -1,6 +1,6 @@
 # MISL-SOC-20-cbrophy
 
-- My project that I am working on over the duration of MISL-SOC-2020 is "**Image Processing with Facial Recognition**".
+My project that I am working on over the duration of MISL-SOC-2020 is "**Image Processing with Facial Recognition**".
 
 # Description
 
@@ -11,7 +11,7 @@
 
 # Installation
 
-- My Dad helped me through the installation process.
+My Dad helped me through the installation process.
 
 ### Anaconda
 
