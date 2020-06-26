@@ -11,7 +11,7 @@
 
 # Installation
 
-- My Dad helped me through the installation progress.
+- My Dad helped me through the installation process.
 
 ### Anaconda
 
@@ -28,10 +28,10 @@
 
 - I used Python's *IDLE* as my desired editor for my programs but it doesn't really matter what you use.
 
-- I always ran my code by opening a *Command Prompt* and activating the desired environment, which for me was "py3" for Python v3.8.3 from the previous tutorial. 
+- I always ran my code by opening a *Command Prompt* and activating the desired environment, which for me was "py3" for Python v3.8.3, created during the previous tutorial. 
 Then, I navigated into the directory that contained my desired program and ran **python build.py** (replace build.py with whatever your program is called.) 
 
 ### Problems
 
 - Running code through a pre-existing install of Python's *IDLE* means that you will only have the packages installed to **that environment**, so any other packages installed in an Anaconda environment won't be used.
-- There was also a problem of libraries still not being found if ran a program through an Anaconda environment, unless I added Anaconda3 to the PATH variable during installation.
+- There was also a problem of libraries still not being found if ran a program through an Anaconda environment **unless** I added Anaconda3 to the PATH variable during installation.
