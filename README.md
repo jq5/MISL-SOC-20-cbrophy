@@ -24,6 +24,11 @@ My Dad helped me through the installation process.
 
 - To create, activate, deactivate and switch between environments in Anaconda, I followed this guide: https://docs.anaconda.com/anaconda/user-guide/tasks/switch-environment/
 
+### Installing OpenCV
+
+- The tutorial I followed is for Python 2.7, however, following the same steps works for 3.7+.
+- I followed the steps from *Installing OpenCV from prebuilt binaries* from https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_setup/py_setup_in_windows/py_setup_in_windows.html
+
 ### Creating and Running Programs
 
 - I used Python's *IDLE* as my desired editor for my programs but it doesn't really matter what you use.
@@ -35,3 +40,4 @@ Then, I navigated into the directory that contained my desired program and ran *
 
 - Running code through a pre-existing install of Python's *IDLE* means that you will only have the packages installed to **that environment**, so any other packages installed in an Anaconda environment won't be used.
 - There was also a problem of libraries still not being found if ran a program through an Anaconda environment **unless** I added Anaconda3 to the PATH variable during installation.
+
