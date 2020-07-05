@@ -2,15 +2,15 @@
 
 from PIL import ImageGrab
 import numpy as np
-import cv2
+import cv2 as cv
 
 while True:
     frame = np.array(ImageGrab.grab(bbox=None))
 
-    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
 
-    cv2.imshow("frame", gray)
-    if cv2.waitKey(1) & 0xFF == ord("q"):
+    cv.imshow("frame", gray)
+    if cv.waitKey(1) & 0xFF == ord("q"):
         break
 
-cv2.destroyAllWindows()
+cv.destroyAllWindows()
