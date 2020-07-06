@@ -43,8 +43,6 @@ My Dad helped me through the installation process.
 - Running programs is easy with PyCharm:
 	- "Run -> Run -> *MyProgram.py*"
 
-### Problems
+### Creating APK's for your device
 
-- Running code through a pre-existing install of Python's *IDLE* means that you will only have the packages installed to **that environment**, so any other packages installed in an Anaconda environment won't be used.
-- There was also a problem of libraries still not being found if ran a program through an Anaconda environment **unless** I added Anaconda3 to the PATH variable during installation.
-
+- I am using *bulldozer* which is Linux-only so I used WSL or Windows Subsystem for Linux to run it.
