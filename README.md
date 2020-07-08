@@ -4,10 +4,17 @@ My project that I am working on over the duration of MISL-SOC-2020 is "**Image P
 
 # Description
 
-- My language that I will be using is *Python* and I will be using *Kivy* and *OpenCV*.
+- My language that I will be using is *Python* and I will be using *Kivy*, *Buildozer* and *OpenCV*.
+
+- Kivy is a Python library for developing applications on multiple platforms such as Android, IOS, Linux and Windows. 
+- Buildozer is tool to package mobile applications on Android and IOS easily. 
 - OpenCV is a real-time, open-source computer vision and machine-learning library.
 
-- I want to use these tools to create a mobile phone application with facial recognition and put different filters on top.
+- I chose to use Kivy because it's a Python library which is my prefered language currently and it is really easy to pick up and use.
+- I chose to use Buildozer because it was recommended on the Kivy documentation and doesn't seem to complicated.
+- I chose to use OpenCV because it has a easy-to-understand documentation and many tutorials.
+
+- I want to use these tools to create a Android application with facial recognition and put different filters over the subject.
 
 # Installation
 
@@ -41,8 +48,9 @@ My Dad helped me through the installation process.
 	- Can run different projects from specific environments with out much modification.
 	
 - Running programs is easy with PyCharm:
-	- "Run -> Run -> *MyProgram.py*"
+	- "Run -> Run -> *main.py*"
 
 ### Creating APK's for your device
 
-- I am using *bulldozer* which is Linux-only so I used WSL or Windows Subsystem for Linux to run it.
+- I am using *buildozer* which is Linux-only so I used WSL (Windows Subsystem for Linux) to run it. https://kivy.org/doc/stable/guide/packaging-android.html
+- This helped me install its dependencies. https://buildozer.readthedocs.io/en/latest/installation.html#targeting-android
