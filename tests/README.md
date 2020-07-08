@@ -58,7 +58,7 @@ All dependencies can be installed by:
     - Finally, it displays the image in a window.
     - It will loop through this until the "q" key is pressed.
     
-    This effect will happen if the frame is fullscreen and on your main monitor.
+    This effect can occur if the frame is fullscreen and on your main monitor.
     ![Example Frame](imgs/example_opencv_frame.png)
 	
 ### How to install and run
