@@ -1,0 +1,62 @@
+WindowManager:
+    MainWindow:
+    SecondaryWindow:
+
+<MainWindow>
+    name: "main"
+
+    GridLayout:
+        cols: 1
+
+        Camera:
+            size_hint: (1, 0.9)
+            pos: (0, root.height)
+
+        GridLayout:
+            cols: 2
+
+            size_hint: (1, 0.1)
+            pos: (0, root.height/4)
+
+            Button:
+                text: "Edit"
+
+            Button:
+                text: "Edit"
+
+    Button:
+        size_hint: (0.05, 0.05)
+        pos: (root.width-self.width, root.height/2)
+
+        text: ">"
+        on_press:
+            app.root.current = "second"
+            root.manager.transition.direction = "left"
+
+<SecondaryWindow>
+    name: "second"
+
+    BoxLayout:
+        orientation: 'vertical'
+
+        MDToolbar:
+            title: "MDFileManager"
+            left_action_items: [['menu', lambda x: None]]
+            elevation: 10
+
+        FloatLayout:
+
+            MDRoundFlatIconButton:
+                text: "Open manager"
+                icon: "folder"
+                pos_hint: {'center_x': .5, 'center_y': .6}
+                on_release: app.file_manager_open()
+
+    Button:
+        size_hint: (0.05, 0.05)
+        pos: (0, root.height/2)
+
+        text: "<"
+        on_press:
+            app.root.current = "main"
+            root.manager.transition.direction = "right"
