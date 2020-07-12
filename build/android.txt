@@ -1,3 +1,0 @@
-title=FillerName
-author=Chris Brophy
-orientation=portrait
