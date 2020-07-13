@@ -50,6 +50,7 @@ My Dad helped me through the installation process.
 	- See tests/README.md for a descriptive tutorial on running programs on PyCharm.
 
 ### To build and run APK's on your device:
+'''
 - I am using *buildozer* which is **Linux-only** so I used *WSL (Windows Subsystem for Linux)* to run it. https://kivy.org/doc/stable/guide/packaging-android.html
 - The same commands can be applied with minor changes (such as "yum" instead of "apt-get") to any other Linux distribution.
 
@@ -60,7 +61,7 @@ My Dad helped me through the installation process.
 	- Run "git clone https://github.com/kivy/buildozer.git" in /home/user or whatever directory you want to save your buildozer files in.
 	- Then "cd buildozer"
 	- Finally, "sudo python3 setup.py install". Make sure it is **python3** not just **python** or it won't work.
-
+'''
 ### To copy files in any drive on your computer to WSL:
 	- Use "cd /" to go to the base directory of WSL.
 	- "cd mnt" to go into a mount point of Windows 10.
