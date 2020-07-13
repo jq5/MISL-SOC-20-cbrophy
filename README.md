@@ -20,7 +20,7 @@ My project that I am working on over the duration of MISL-SOC-2020 is "**Image P
 
 My Dad helped me through the installation process.
 
-### Anaconda
+### Anaconda:
 
 - Download Anaconda so you can create environments with their own seperate packages and python versions. https://docs.anaconda.com/anaconda/install/
 - I Initially downloaded Anaconda seperately for both Python 2.7 and 3.7+ thinking I needed to use Python 2.7 but realised later on that I only needed the version for Python 3.7+.
@@ -31,18 +31,18 @@ My Dad helped me through the installation process.
 
 - To create, activate, deactivate and switch between environments in Anaconda, I followed this guide: https://docs.anaconda.com/anaconda/user-guide/tasks/switch-environment/
 
-### Installing OpenCV
+### OpenCV:
 
 - The tutorial I followed is for Python 2.7, however, following the same steps works for 3.7+.
 - I followed the steps from *Installing OpenCV from prebuilt binaries* from https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_setup/py_setup_in_windows/py_setup_in_windows.html
 
-### Installing Kivy
+### Kivy:
 - Kivy only works in Python3 versions 3.5 to 3.7. I had to reinstall all my packages on a new virtual environment which was in python 3.7.7 instead of 3.8.3.
 - I followed the steps *Installing the kivy stable release* from https://kivy.org/doc/stable/installation/installation-windows.html#install-win-dist
 
 ## Creating and Running Programs/Apps
 
-### Creating programs
+### Creating programs:
 
 - I am using PyCharm as my IDE for my programs because: 
 	- Git is integrated into it 
@@ -52,12 +52,13 @@ My Dad helped me through the installation process.
 - Running programs is easy with PyCharm:
 	- See tests/README.md for a descriptive tutorial on running programs on PyCharm.
 
-### Building and running APK's on your device
+### Building and running APK's on your device:
 
 - I am using *buildozer* which is **Linux-only** so I used *WSL (Windows Subsystem for Linux)* to run it. https://kivy.org/doc/stable/guide/packaging-android.html
+- The same commands can be applied with minor changes (such as "yum" instead of "apt-get") to any other Linux distribution.
 
-- Install dependencies: 
-	- Run "sudo apt-get install git cython".
+- Install dependencies (Ubuntu and WSL): 
+	- Run "sudo apt-get install python3 python3-pip git cython".
 	- And "sudo pip3 install cython".
 	
 	- Run "git clone https://github.com/kivy/buildozer.git" in /home/user or whatever directory you want to save your buildozer files in.
@@ -78,14 +79,19 @@ My Dad helped me through the installation process.
 	
 	- Installing ADB (Android Debug Bridge)
 		- The ADB lets your computer connect to your computer and have software pushed straight to it from command-line.
-	
-		- WSL can't access your device from USB ports but can still have the ADB installed.
-			- To bypass this, we get the same version ADB on Windows 10 as well as on WSL.
-			- If you use a Linux system anyway, then this isn't an issue.
 		
-		- I follwed this tutorial for installing Windows 10 ADB:  https://www.auslogics.com/en/articles/install-adb-driver-on-windows-10/
-		- Installing ADB on WSL: http://defrances.co/post/adbwsl/
-		- I had previously tried installing ADB drivers for my device previously that caused it to not be found. To rectify this, I uninstalled the device in *Device Manager*.
+		- WSL/Windows 10:
+			- WSL can't access your device from USB ports but can still have the ADB installed.
+				- To bypass this, we get the same version ADB on Windows 10 as well as on WSL.
+				- If you use a Linux system anyway, then this isn't an issue.
+			
+			- I followed this tutorial for installing Windows 10 ADB:  https://www.auslogics.com/en/articles/install-adb-driver-on-windows-10/
+			- Installing ADB on WSL: http://defrances.co/post/adbwsl/
+			- I had previously tried installing ADB drivers for my device previously that caused it to not be found. To rectify this, I uninstalled the device in *Device Manager*.
+		
+		- Linux (Ubuntu):
+			- 
+		
 		- Run "adb devices" on both Windows 10 CMD and WSL to make sure it works.
 	
 	- Pushing APK
