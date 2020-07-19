@@ -37,6 +37,7 @@ My Dad helped me through the installation process.
 ### Kivy:
     - Kivy only works in Python3 versions 3.5 to 3.7. I had to reinstall all my packages on a new virtual environment which was in python 3.7.7 instead of 3.8.3.
     - I followed the steps *Installing the kivy stable release* from https://kivy.org/doc/stable/installation/installation-windows.html#install-win-dist
+	- Just running "pip install kivy" won't work on it's own, you have to folow the above or similar guide.
 
 ## Creating and Running Programs/Apps
 
