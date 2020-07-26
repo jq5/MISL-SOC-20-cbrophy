@@ -18,8 +18,6 @@ My project that I am working on over the duration of MISL-SOC-2020 is "**Image P
 
 ## Installation
 
-My Dad helped me through the installation process.
-
 ### Anaconda:
 - Download Anaconda so you can create environments with their own seperate packages and python versions. https://docs.anaconda.com/anaconda/install/
 - I Initially downloaded Anaconda seperately for both Python 2.7 and 3.7+ thinking I needed to use Python 2.7 but realised later on that I only needed the version for Python 3.7+.
